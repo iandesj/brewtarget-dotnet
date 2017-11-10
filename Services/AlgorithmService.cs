@@ -1,10 +1,11 @@
 using System;
 using BrewTarget.Constants;
+using BrewTarget.IServices;
 using BrewTarget.Models;
 
 namespace BrewTarget.Services
 {
-    public class AlgorithmService
+    public class AlgorithmService : IAlgorithmService
     {
         // This is the cubic fit to get Plato from specific gravity, measured at 20C
         // relative to density of water at 20C.

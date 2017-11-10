@@ -20,7 +20,7 @@ namespace BrewTarget.IServices
             */
         double GetPlato(double sugar_kg, double wort_l);
         //! \brief Converts FG to plato, given the OG.
-        double AgFgToPlato(double og, double fg);
+        double OgFgToPlato(double og, double fg);
         //! \brief Gets ABV by using current gravity reading and brix reading.
         double GetABVBySGPlato(double sg, double plato);
         //! \brief Gets ABW from current gravity and plato.
