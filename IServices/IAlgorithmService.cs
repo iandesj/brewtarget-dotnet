@@ -31,28 +31,5 @@ namespace BrewTarget.IServices
         double RefractiveIndex(double plato);
         //! \brief Corrects the apparent extract 'plato' to the real extract using current gravity 'sg'.
         double RealExtract(double sg, double plato);
-
-        /*
-        private:
-        // This is the cubic fit to get Plato from specific gravity, measured at 20C
-        // relative to density of water at 20C.
-        // P = -616.868 + 1111.14(SG) - 630.272(SG)^2 + 135.997(SG)^3
-        static Polynomial platoFromSG_20C20C;
-        
-        // Water density polynomial, given in kg/L as a function of degrees C.
-        // 1.80544064e-8*x^3 - 6.268385468e-6*x^2 + 3.113930471e-5*x + 0.999924134
-        static Polynomial waterDensityPoly_C;
-        
-        // Polynomial in degrees Celsius that gives the additive hydrometer
-        // correction for a 15C hydrometer when read at a temperature other
-        // than 15C.
-        static Polynomial hydroCorrection15CPoly;
-
-        // Hide constructors and assignment op.
-        Algorithms(){}
-        Algorithms(Algorithms const&){}
-        Algorithms& operator=(Algorithms const& other){ return *this; }
-        ~Algorithms(){}
-        */
     }
 }
