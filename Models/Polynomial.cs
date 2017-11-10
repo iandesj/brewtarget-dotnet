@@ -1,6 +1,6 @@
 /*
  * \brief Class to encapsulate real polynomials in a single variable
- * \author Philip G. Lee
+ * \author Ian DesJardins
  */
 using System;
 using System.Collections.Generic;

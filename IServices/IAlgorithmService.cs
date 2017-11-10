@@ -1,7 +1,6 @@
 /*!
  * \class Algorithms
- * \author Philip G. Lee
- * \author Eric Tamme
+ * \author Ian DesJardins
  *
  * \brief Beer-related math functions, arithmetic, and CS algorithms.
  */
