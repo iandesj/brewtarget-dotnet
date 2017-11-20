@@ -1,2 +1,2 @@
 # brewtarget-dotnet
-Port of brewtarget desktop app internals to web service.
+Port of brewtarget desktop app internals to web service. (WIP)
